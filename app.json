@@ -18,11 +18,11 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.niccolosak.vocabulary"
+      "package": "com.nicolasacco.vocabulary"
     },
     "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+    "output": "single",
+    "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       "expo-router",
@@ -33,7 +33,8 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      "@react-native-google-signin/google-signin"
     ],
     "experiments": {
       "typedRoutes": true,
